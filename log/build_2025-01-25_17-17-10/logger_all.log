@@ -1,0 +1,88 @@
+[0.114s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.114s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='sequential', event_handlers=None, base_paths=['.'], paths=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=CustomArgumentParser(prog='colcon build', usage=None, description='Build a set of packages.', formatter_class=<class 'colcon_core.command.CustomFormatter'>, conflict_handler='error', add_help=True), verb_extension=<colcon_core.verb.build.BuildVerb object at 0x728caa823cd0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x728caa823cd0>>)
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.390s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.390s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/niluo_ws'
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.390s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.411s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.412s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/niluo_node) by extensions ['ignore', 'ignore_ament_install']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/niluo_node) by extension 'ignore'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/niluo_node) by extension 'ignore_ament_install'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/niluo_node) by extensions ['ros']
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/niluo_node) by extension 'ros'
+[0.417s] DEBUG:colcon.colcon_core.package_identification:Package 'src/niluo_node' with type 'ros.ament_python' and name 'niluo_node'
+[0.417s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.417s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.417s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'niluo_node' build argument 'cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'niluo_node' build argument 'cmake_target' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'niluo_node' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'niluo_node' build argument 'cmake_clean_cache' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'niluo_node' build argument 'cmake_clean_first' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'niluo_node' build argument 'cmake_force_configure' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'niluo_node' build argument 'ament_cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'niluo_node' build argument 'catkin_cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'niluo_node' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.456s] DEBUG:colcon.colcon_core.verb:Building package 'niluo_node' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/niluo_ws/build/niluo_node', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/niluo_ws/install/niluo_node', 'merge_install': False, 'path': '/home/ubuntu/niluo_ws/src/niluo_node', 'symlink_install': False, 'test_result_base': None}
+[0.456s] INFO:colcon.colcon_core.executor:Executing jobs using 'sequential' executor
+[0.458s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'niluo_node'
+[0.458s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/niluo_ws/src/niluo_node' with build type 'ament_python'
+[0.458s] Level 1:colcon.colcon_core.shell:create_environment_hook('niluo_node', 'ament_prefix_path')
+[0.471s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.471s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/niluo_ws/install/niluo_node/share/niluo_node/hook/ament_prefix_path.dsv'
+[0.483s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/niluo_ws/install/niluo_node/share/niluo_node/hook/ament_prefix_path.sh'
+[0.485s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.947s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/niluo_ws/src/niluo_node'
+[0.948s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.706s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/niluo_ws/src/niluo_node': PYTHONPATH=/home/ubuntu/niluo_ws/build/niluo_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/niluo_ws/install/niluo_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/niluo_node build --build-base /home/ubuntu/niluo_ws/build/niluo_node/build install --record /home/ubuntu/niluo_ws/build/niluo_node/install.log --single-version-externally-managed install_data
+[2.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/niluo_ws/src/niluo_node' returned '0': PYTHONPATH=/home/ubuntu/niluo_ws/build/niluo_node/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/niluo_ws/install/niluo_node/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/niluo_node build --build-base /home/ubuntu/niluo_ws/build/niluo_node/build install --record /home/ubuntu/niluo_ws/build/niluo_node/install.log --single-version-externally-managed install_data
+[2.222s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/niluo_ws/install/niluo_node' for CMake module files
+[2.223s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/niluo_ws/install/niluo_node' for CMake config files
+[2.224s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/niluo_ws/install/niluo_node/lib'
+[2.225s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/niluo_ws/install/niluo_node/bin'
+[2.225s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/niluo_ws/install/niluo_node/lib/pkgconfig/niluo_node.pc'
+[2.225s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/niluo_ws/install/niluo_node/lib/python3.10/site-packages'
+[2.225s] Level 1:colcon.colcon_core.shell:create_environment_hook('niluo_node', 'pythonpath')
+[2.226s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/niluo_ws/install/niluo_node/share/niluo_node/hook/pythonpath.dsv'
+[2.226s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/niluo_ws/install/niluo_node/share/niluo_node/hook/pythonpath.sh'
+[2.227s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/niluo_ws/install/niluo_node/bin'
+[2.227s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(niluo_node)
+[2.228s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/niluo_ws/install/niluo_node/share/niluo_node/package.dsv'
+[2.238s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/niluo_ws/install/niluo_node/share/niluo_node/package.sh'
+[2.240s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/niluo_ws/install/niluo_node/share/colcon-core/packages/niluo_node)
+[2.241s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'niluo_node' finished with '0'
+[2.241s] DEBUG:colcon.colcon_core.executor.sequential:closing loop
+[2.241s] DEBUG:colcon.colcon_core.executor.sequential:loop closed
+[2.242s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.242s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.242s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/niluo_ws/install/local_setup.sh'
+[2.244s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/niluo_ws/install/_local_setup_util_sh.py'
+[2.259s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/niluo_ws/install/setup.sh'
