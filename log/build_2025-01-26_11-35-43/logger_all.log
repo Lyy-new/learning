@@ -1,0 +1,96 @@
+[0.110s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.110s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='sequential', event_handlers=None, base_paths=['.'], paths=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=CustomArgumentParser(prog='colcon build', usage=None, description='Build a set of packages.', formatter_class=<class 'colcon_core.command.CustomFormatter'>, conflict_handler='error', add_help=True), verb_extension=<colcon_core.verb.build.BuildVerb object at 0x75e6dcc13d00>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x75e6dcc13d00>>)
+[0.381s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.381s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.381s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.382s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/homework'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.382s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.401s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/lr_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/lr_interfaces) by extension 'ignore'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/lr_interfaces) by extension 'ignore_ament_install'
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/lr_interfaces) by extensions ['ros']
+[0.404s] Level 1:colcon.colcon_core.package_identification:_identify(src/lr_interfaces) by extension 'ros'
+[0.408s] DEBUG:colcon.colcon_core.package_identification:Package 'src/lr_interfaces' with type 'ros.ament_cmake' and name 'lr_interfaces'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/morihuoshan) by extensions ['ignore', 'ignore_ament_install']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/morihuoshan) by extension 'ignore'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/morihuoshan) by extension 'ignore_ament_install'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/morihuoshan) by extensions ['ros']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src/morihuoshan) by extension 'ros'
+[0.409s] DEBUG:colcon.colcon_core.package_identification:Package 'src/morihuoshan' with type 'ros.ament_python' and name 'morihuoshan'
+[0.409s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.410s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.410s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'lr_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'lr_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'lr_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'lr_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'lr_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'lr_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'lr_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'lr_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.448s] Level 5:colcon.colcon_core.verb:set package 'lr_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.448s] DEBUG:colcon.colcon_core.verb:Building package 'lr_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/homework/build/lr_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/homework/install/lr_interfaces', 'merge_install': False, 'path': '/home/ubuntu/homework/src/lr_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'morihuoshan' build argument 'cmake_args' from command line to 'None'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'morihuoshan' build argument 'cmake_target' from command line to 'None'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'morihuoshan' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'morihuoshan' build argument 'cmake_clean_cache' from command line to 'False'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'morihuoshan' build argument 'cmake_clean_first' from command line to 'False'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'morihuoshan' build argument 'cmake_force_configure' from command line to 'False'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'morihuoshan' build argument 'ament_cmake_args' from command line to 'None'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'morihuoshan' build argument 'catkin_cmake_args' from command line to 'None'
+[0.449s] Level 5:colcon.colcon_core.verb:set package 'morihuoshan' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.449s] DEBUG:colcon.colcon_core.verb:Building package 'morihuoshan' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/homework/build/morihuoshan', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/homework/install/morihuoshan', 'merge_install': False, 'path': '/home/ubuntu/homework/src/morihuoshan', 'symlink_install': False, 'test_result_base': None}
+[0.450s] INFO:colcon.colcon_core.executor:Executing jobs using 'sequential' executor
+[0.451s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'lr_interfaces'
+[0.451s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/homework/src/lr_interfaces' with build type 'ament_cmake'
+[0.451s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/homework/src/lr_interfaces'
+[0.453s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.453s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.467s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/homework/build/lr_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/homework/src/lr_interfaces -DCMAKE_INSTALL_PREFIX=/home/ubuntu/homework/install/lr_interfaces
+[0.886s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/homework/build/lr_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/homework/src/lr_interfaces -DCMAKE_INSTALL_PREFIX=/home/ubuntu/homework/install/lr_interfaces
+[0.914s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(lr_interfaces)
+[0.918s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/homework/install/lr_interfaces' for CMake module files
+[0.919s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/homework/install/lr_interfaces' for CMake config files
+[0.919s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/homework/install/lr_interfaces/bin'
+[0.920s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/homework/install/lr_interfaces/lib/pkgconfig/lr_interfaces.pc'
+[0.921s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/homework/install/lr_interfaces/lib/python3.10/site-packages'
+[0.922s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/homework/install/lr_interfaces/bin'
+[0.922s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/homework/install/lr_interfaces/share/lr_interfaces/package.dsv'
+[0.923s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/homework/install/lr_interfaces/share/lr_interfaces/package.sh'
+[0.924s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/homework/install/lr_interfaces/share/colcon-core/packages/lr_interfaces)
+[0.925s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'lr_interfaces' finished with '1'
+[0.925s] DEBUG:colcon.colcon_core.executor.sequential:closing loop
+[0.925s] DEBUG:colcon.colcon_core.executor.sequential:loop closed
+[0.925s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[0.926s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[0.926s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/homework/install/local_setup.sh'
+[0.927s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/homework/install/_local_setup_util_sh.py'
+[0.930s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/homework/install/setup.sh'

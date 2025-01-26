@@ -1,0 +1,4 @@
+[console_scripts]
+car_client = morihuooshan.car_client:main
+car_service = morihuooshan.car_service:main
+
