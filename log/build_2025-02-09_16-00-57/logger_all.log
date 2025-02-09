@@ -1,0 +1,159 @@
+[0.114s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.114s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='sequential', event_handlers=None, base_paths=['.'], paths=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=CustomArgumentParser(prog='colcon build', usage=None, description='Build a set of packages.', formatter_class=<class 'colcon_core.command.CustomFormatter'>, conflict_handler='error', add_help=True), verb_extension=<colcon_core.verb.build.BuildVerb object at 0x72dc824500d0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x72dc824500d0>>)
+[0.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.386s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.387s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/topic_practice_ws'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.387s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.406s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.407s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.408s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_display) by extensions ['ignore', 'ignore_ament_install']
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_display) by extension 'ignore'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_display) by extension 'ignore_ament_install'
+[0.409s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_display) by extensions ['ros']
+[0.410s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_display) by extension 'ros'
+[0.413s] DEBUG:colcon.colcon_core.package_identification:Package 'src/status_display' with type 'ros.ament_cmake' and name 'status_display'
+[0.413s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_interfaces) by extension 'ignore'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_interfaces) by extension 'ignore_ament_install'
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_interfaces) by extensions ['ros']
+[0.414s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_interfaces) by extension 'ros'
+[0.415s] DEBUG:colcon.colcon_core.package_identification:Package 'src/status_interfaces' with type 'ros.ament_cmake' and name 'status_interfaces'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_publisher) by extensions ['ignore', 'ignore_ament_install']
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_publisher) by extension 'ignore'
+[0.415s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_publisher) by extension 'ignore_ament_install'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_publisher) by extensions ['ros']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/status_publisher) by extension 'ros'
+[0.417s] DEBUG:colcon.colcon_core.package_identification:Package 'src/status_publisher' with type 'ros.ament_python' and name 'status_publisher'
+[0.417s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.417s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.417s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'status_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'status_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'status_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'status_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'status_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'status_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'status_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'status_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.455s] Level 5:colcon.colcon_core.verb:set package 'status_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.455s] DEBUG:colcon.colcon_core.verb:Building package 'status_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/topic_practice_ws/build/status_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/topic_practice_ws/install/status_interfaces', 'merge_install': False, 'path': '/home/ubuntu/topic_practice_ws/src/status_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'cmake_target' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'cmake_clean_cache' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'cmake_clean_first' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'cmake_force_configure' from command line to 'False'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'ament_cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'catkin_cmake_args' from command line to 'None'
+[0.456s] Level 5:colcon.colcon_core.verb:set package 'status_display' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.456s] DEBUG:colcon.colcon_core.verb:Building package 'status_display' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/topic_practice_ws/build/status_display', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/topic_practice_ws/install/status_display', 'merge_install': False, 'path': '/home/ubuntu/topic_practice_ws/src/status_display', 'symlink_install': False, 'test_result_base': None}
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'cmake_target' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'cmake_clean_cache' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'cmake_clean_first' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'cmake_force_configure' from command line to 'False'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'ament_cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'catkin_cmake_args' from command line to 'None'
+[0.458s] Level 5:colcon.colcon_core.verb:set package 'status_publisher' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.458s] DEBUG:colcon.colcon_core.verb:Building package 'status_publisher' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/topic_practice_ws/build/status_publisher', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/topic_practice_ws/install/status_publisher', 'merge_install': False, 'path': '/home/ubuntu/topic_practice_ws/src/status_publisher', 'symlink_install': False, 'test_result_base': None}
+[0.458s] INFO:colcon.colcon_core.executor:Executing jobs using 'sequential' executor
+[0.460s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'status_interfaces'
+[0.460s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/topic_practice_ws/src/status_interfaces' with build type 'ament_cmake'
+[0.460s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/topic_practice_ws/src/status_interfaces'
+[0.462s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.462s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.475s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/topic_practice_ws/build/status_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/topic_practice_ws/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/ubuntu/topic_practice_ws/install/status_interfaces
+[3.324s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/topic_practice_ws/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ubuntu/topic_practice_ws/src/status_interfaces -DCMAKE_INSTALL_PREFIX=/home/ubuntu/topic_practice_ws/install/status_interfaces
+[3.328s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/topic_practice_ws/build/status_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/topic_practice_ws/build/status_interfaces -- -j16 -l16
+[6.717s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/topic_practice_ws/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/topic_practice_ws/build/status_interfaces -- -j16 -l16
+[6.741s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/topic_practice_ws/build/status_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/topic_practice_ws/build/status_interfaces
+[6.892s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(status_interfaces)
+[6.892s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/topic_practice_ws/build/status_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/topic_practice_ws/build/status_interfaces
+[6.897s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/topic_practice_ws/install/status_interfaces' for CMake module files
+[6.898s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/topic_practice_ws/install/status_interfaces' for CMake config files
+[6.901s] Level 1:colcon.colcon_core.shell:create_environment_hook('status_interfaces', 'cmake_prefix_path')
+[6.901s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/topic_practice_ws/install/status_interfaces/share/status_interfaces/hook/cmake_prefix_path.dsv'
+[6.902s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/topic_practice_ws/install/status_interfaces/share/status_interfaces/hook/cmake_prefix_path.sh'
+[6.904s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/topic_practice_ws/install/status_interfaces/lib'
+[6.904s] Level 1:colcon.colcon_core.shell:create_environment_hook('status_interfaces', 'ld_library_path_lib')
+[6.904s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/topic_practice_ws/install/status_interfaces/share/status_interfaces/hook/ld_library_path_lib.dsv'
+[6.905s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/topic_practice_ws/install/status_interfaces/share/status_interfaces/hook/ld_library_path_lib.sh'
+[6.906s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/topic_practice_ws/install/status_interfaces/bin'
+[6.906s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/topic_practice_ws/install/status_interfaces/lib/pkgconfig/status_interfaces.pc'
+[6.908s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/topic_practice_ws/install/status_interfaces/lib/python3.10/site-packages'
+[6.908s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/topic_practice_ws/install/status_interfaces/bin'
+[6.908s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/topic_practice_ws/install/status_interfaces/share/status_interfaces/package.dsv'
+[6.910s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/topic_practice_ws/install/status_interfaces/share/status_interfaces/package.sh'
+[6.911s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/topic_practice_ws/install/status_interfaces/share/colcon-core/packages/status_interfaces)
+[6.912s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(status_interfaces)
+[6.912s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/topic_practice_ws/install/status_interfaces' for CMake module files
+[6.913s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/topic_practice_ws/install/status_interfaces' for CMake config files
+[6.915s] Level 1:colcon.colcon_core.shell:create_environment_hook('status_interfaces', 'cmake_prefix_path')
+[6.915s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/topic_practice_ws/install/status_interfaces/share/status_interfaces/hook/cmake_prefix_path.dsv'
+[6.916s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/topic_practice_ws/install/status_interfaces/share/status_interfaces/hook/cmake_prefix_path.sh'
+[6.917s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/topic_practice_ws/install/status_interfaces/lib'
+[6.917s] Level 1:colcon.colcon_core.shell:create_environment_hook('status_interfaces', 'ld_library_path_lib')
+[6.917s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/topic_practice_ws/install/status_interfaces/share/status_interfaces/hook/ld_library_path_lib.dsv'
+[6.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/topic_practice_ws/install/status_interfaces/share/status_interfaces/hook/ld_library_path_lib.sh'
+[6.919s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/topic_practice_ws/install/status_interfaces/bin'
+[6.919s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/topic_practice_ws/install/status_interfaces/lib/pkgconfig/status_interfaces.pc'
+[6.919s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/topic_practice_ws/install/status_interfaces/lib/python3.10/site-packages'
+[6.920s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/topic_practice_ws/install/status_interfaces/bin'
+[6.920s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/topic_practice_ws/install/status_interfaces/share/status_interfaces/package.dsv'
+[6.921s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/topic_practice_ws/install/status_interfaces/share/status_interfaces/package.sh'
+[6.922s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/topic_practice_ws/install/status_interfaces/share/colcon-core/packages/status_interfaces)
+[6.923s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'status_interfaces' finished with '0'
+[6.923s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'status_display'
+[6.923s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/topic_practice_ws/src/status_display' with build type 'ament_cmake'
+[6.923s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/topic_practice_ws/src/status_display'
+[6.923s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[6.942s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/topic_practice_ws/build/status_display': AMENT_PREFIX_PATH=/home/ubuntu/topic_practice_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/topic_practice_ws/install/status_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/topic_practice_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/topic_practice_ws/src/status_display -DCMAKE_INSTALL_PREFIX=/home/ubuntu/topic_practice_ws/install/status_display
+[9.418s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/topic_practice_ws/build/status_display' returned '0': AMENT_PREFIX_PATH=/home/ubuntu/topic_practice_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/topic_practice_ws/install/status_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/topic_practice_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/ubuntu/topic_practice_ws/src/status_display -DCMAKE_INSTALL_PREFIX=/home/ubuntu/topic_practice_ws/install/status_display
+[9.419s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/topic_practice_ws/build/status_display': AMENT_PREFIX_PATH=/home/ubuntu/topic_practice_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/topic_practice_ws/install/status_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/topic_practice_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/topic_practice_ws/build/status_display -- -j16 -l16
+[9.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/topic_practice_ws/build/status_display' returned '2': AMENT_PREFIX_PATH=/home/ubuntu/topic_practice_ws/install/status_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/ubuntu/topic_practice_ws/install/status_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/ubuntu/topic_practice_ws/install/status_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/ubuntu/topic_practice_ws/install/status_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/ubuntu/topic_practice_ws/build/status_display -- -j16 -l16
+[9.572s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(status_display)
+[9.573s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/topic_practice_ws/install/status_display' for CMake module files
+[9.573s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/topic_practice_ws/install/status_display' for CMake config files
+[9.573s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/topic_practice_ws/install/status_display/bin'
+[9.573s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/topic_practice_ws/install/status_display/lib/pkgconfig/status_display.pc'
+[9.574s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/topic_practice_ws/install/status_display/lib/python3.10/site-packages'
+[9.574s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/topic_practice_ws/install/status_display/bin'
+[9.575s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/topic_practice_ws/install/status_display/share/status_display/package.dsv'
+[9.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/topic_practice_ws/install/status_display/share/status_display/package.sh'
+[9.576s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/topic_practice_ws/install/status_display/share/colcon-core/packages/status_display)
+[9.577s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'status_display' finished with '2'
+[9.577s] DEBUG:colcon.colcon_core.executor.sequential:closing loop
+[9.577s] DEBUG:colcon.colcon_core.executor.sequential:loop closed
+[9.577s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[9.578s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[9.578s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/topic_practice_ws/install/local_setup.sh'
+[9.580s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/topic_practice_ws/install/_local_setup_util_sh.py'
+[9.582s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/topic_practice_ws/install/setup.sh'
