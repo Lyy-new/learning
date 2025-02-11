@@ -1,0 +1,151 @@
+[0.116s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[0.117s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='sequential', event_handlers=None, base_paths=['.'], paths=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=CustomArgumentParser(prog='colcon build', usage=None, description='Build a set of packages.', formatter_class=<class 'colcon_core.command.CustomFormatter'>, conflict_handler='error', add_help=True), verb_extension=<colcon_core.verb.build.BuildVerb object at 0x72a3f9050b80>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x72a3f9050b80>>)
+[0.397s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.397s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.397s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.397s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/ubuntu/chapt4/chapt4_ws'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.398s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapt4_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapt4_interfaces) by extension 'ignore'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapt4_interfaces) by extension 'ignore_ament_install'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapt4_interfaces) by extensions ['ros']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/chapt4_interfaces) by extension 'ros'
+[0.425s] DEBUG:colcon.colcon_core.package_identification:Package 'src/chapt4_interfaces' with type 'ros.ament_cmake' and name 'chapt4_interfaces'
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_service) by extensions ['ignore', 'ignore_ament_install']
+[0.425s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_service) by extension 'ignore'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_service) by extension 'ignore_ament_install'
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_service) by extensions ['ros']
+[0.426s] Level 1:colcon.colcon_core.package_identification:_identify(src/demo_python_service) by extension 'ros'
+[0.427s] DEBUG:colcon.colcon_core.package_identification:Package 'src/demo_python_service' with type 'ros.ament_python' and name 'demo_python_service'
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.427s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'chapt4_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'chapt4_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'chapt4_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'chapt4_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'chapt4_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'chapt4_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'chapt4_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'chapt4_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.467s] Level 5:colcon.colcon_core.verb:set package 'chapt4_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.467s] DEBUG:colcon.colcon_core.verb:Building package 'chapt4_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/chapt4/chapt4_ws/build/chapt4_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/chapt4/chapt4_ws/install/chapt4_interfaces', 'merge_install': False, 'path': '/home/ubuntu/chapt4/chapt4_ws/src/chapt4_interfaces', 'symlink_install': False, 'test_result_base': None}
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'demo_python_service' build argument 'cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'demo_python_service' build argument 'cmake_target' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'demo_python_service' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'demo_python_service' build argument 'cmake_clean_cache' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'demo_python_service' build argument 'cmake_clean_first' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'demo_python_service' build argument 'cmake_force_configure' from command line to 'False'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'demo_python_service' build argument 'ament_cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'demo_python_service' build argument 'catkin_cmake_args' from command line to 'None'
+[0.468s] Level 5:colcon.colcon_core.verb:set package 'demo_python_service' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.468s] DEBUG:colcon.colcon_core.verb:Building package 'demo_python_service' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/ubuntu/chapt4/chapt4_ws/build/demo_python_service', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/ubuntu/chapt4/chapt4_ws/install/demo_python_service', 'merge_install': False, 'path': '/home/ubuntu/chapt4/chapt4_ws/src/demo_python_service', 'symlink_install': False, 'test_result_base': None}
+[0.469s] INFO:colcon.colcon_core.executor:Executing jobs using 'sequential' executor
+[0.470s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'chapt4_interfaces'
+[0.470s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/ubuntu/chapt4/chapt4_ws/src/chapt4_interfaces' with build type 'ament_cmake'
+[0.471s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/ubuntu/chapt4/chapt4_ws/src/chapt4_interfaces'
+[0.472s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.472s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.474s] WARNING:colcon.colcon_core.prefix_path.colcon:The path '/home/ubuntu/chapt4/chapt4_ws/src/install' in the environment variable COLCON_PREFIX_PATH doesn't exist
+[0.475s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/chapt4/chapt4_ws/src/install/demo_python_service' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.475s] WARNING:colcon.colcon_ros.prefix_path.ament:The path '/home/ubuntu/chapt4/chapt4_ws/src/install/chapt4_interfaces' in the environment variable AMENT_PREFIX_PATH doesn't exist
+[0.475s] WARNING:colcon.colcon_ros.prefix_path.catkin:The path '/home/ubuntu/chapt4/chapt4_ws/src/install/chapt4_interfaces' in the environment variable CMAKE_PREFIX_PATH doesn't exist
+[0.490s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/chapt4/chapt4_ws/build/chapt4_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/chapt4/chapt4_ws/install/demo_python_service:/home/ubuntu/chapt4/chapt4_ws/src/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/chapt4/chapt4_ws/build/chapt4_interfaces -- -j16 -l16
+[1.170s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/chapt4/chapt4_ws/build/chapt4_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/chapt4/chapt4_ws/install/demo_python_service:/home/ubuntu/chapt4/chapt4_ws/src/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --build /home/ubuntu/chapt4/chapt4_ws/build/chapt4_interfaces -- -j16 -l16
+[1.194s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/chapt4/chapt4_ws/build/chapt4_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/chapt4/chapt4_ws/install/demo_python_service:/home/ubuntu/chapt4/chapt4_ws/src/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/chapt4/chapt4_ws/build/chapt4_interfaces
+[1.314s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(chapt4_interfaces)
+[1.315s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/chapt4/chapt4_ws/build/chapt4_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/ubuntu/chapt4/chapt4_ws/install/demo_python_service:/home/ubuntu/chapt4/chapt4_ws/src/install/demo_python_service:/opt/ros/humble /usr/bin/cmake --install /home/ubuntu/chapt4/chapt4_ws/build/chapt4_interfaces
+[1.319s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/chapt4/chapt4_ws/install/chapt4_interfaces' for CMake module files
+[1.323s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/chapt4/chapt4_ws/install/chapt4_interfaces' for CMake config files
+[1.324s] Level 1:colcon.colcon_core.shell:create_environment_hook('chapt4_interfaces', 'cmake_prefix_path')
+[1.324s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/hook/cmake_prefix_path.dsv'
+[1.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/hook/cmake_prefix_path.sh'
+[1.329s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/chapt4/chapt4_ws/install/chapt4_interfaces/lib'
+[1.329s] Level 1:colcon.colcon_core.shell:create_environment_hook('chapt4_interfaces', 'ld_library_path_lib')
+[1.330s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/hook/ld_library_path_lib.dsv'
+[1.330s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/hook/ld_library_path_lib.sh'
+[1.331s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/chapt4/chapt4_ws/install/chapt4_interfaces/bin'
+[1.331s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/chapt4/chapt4_ws/install/chapt4_interfaces/lib/pkgconfig/chapt4_interfaces.pc'
+[1.333s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.10/site-packages'
+[1.334s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/chapt4/chapt4_ws/install/chapt4_interfaces/bin'
+[1.334s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/package.dsv'
+[1.335s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/package.sh'
+[1.336s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/chapt4/chapt4_ws/install/chapt4_interfaces/share/colcon-core/packages/chapt4_interfaces)
+[1.338s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(chapt4_interfaces)
+[1.340s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/chapt4/chapt4_ws/install/chapt4_interfaces' for CMake module files
+[1.341s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/chapt4/chapt4_ws/install/chapt4_interfaces' for CMake config files
+[1.342s] Level 1:colcon.colcon_core.shell:create_environment_hook('chapt4_interfaces', 'cmake_prefix_path')
+[1.343s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/hook/cmake_prefix_path.dsv'
+[1.343s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/hook/cmake_prefix_path.sh'
+[1.345s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/chapt4/chapt4_ws/install/chapt4_interfaces/lib'
+[1.345s] Level 1:colcon.colcon_core.shell:create_environment_hook('chapt4_interfaces', 'ld_library_path_lib')
+[1.345s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/hook/ld_library_path_lib.dsv'
+[1.346s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/hook/ld_library_path_lib.sh'
+[1.347s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/chapt4/chapt4_ws/install/chapt4_interfaces/bin'
+[1.347s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/chapt4/chapt4_ws/install/chapt4_interfaces/lib/pkgconfig/chapt4_interfaces.pc'
+[1.348s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/chapt4/chapt4_ws/install/chapt4_interfaces/lib/python3.10/site-packages'
+[1.348s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/chapt4/chapt4_ws/install/chapt4_interfaces/bin'
+[1.349s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/package.dsv'
+[1.350s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/chapt4/chapt4_ws/install/chapt4_interfaces/share/chapt4_interfaces/package.sh'
+[1.350s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/chapt4/chapt4_ws/install/chapt4_interfaces/share/colcon-core/packages/chapt4_interfaces)
+[1.351s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'chapt4_interfaces' finished with '0'
+[1.352s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'demo_python_service'
+[1.352s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/ubuntu/chapt4/chapt4_ws/src/demo_python_service' with build type 'ament_python'
+[1.352s] Level 1:colcon.colcon_core.shell:create_environment_hook('demo_python_service', 'ament_prefix_path')
+[1.353s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/chapt4/chapt4_ws/install/demo_python_service/share/demo_python_service/hook/ament_prefix_path.dsv'
+[1.354s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/chapt4/chapt4_ws/install/demo_python_service/share/demo_python_service/hook/ament_prefix_path.sh'
+[1.355s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.804s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/ubuntu/chapt4/chapt4_ws/src/demo_python_service'
+[1.805s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.344s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/ubuntu/chapt4/chapt4_ws/src/demo_python_service': PYTHONPATH=/home/ubuntu/chapt4/chapt4_ws/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/ubuntu/chapt4/chapt4_ws/build/demo_python_service/build install --record /home/ubuntu/chapt4/chapt4_ws/build/demo_python_service/install.log --single-version-externally-managed install_data
+[2.835s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/chapt4/chapt4_ws/install/demo_python_service' for CMake module files
+[2.835s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/ubuntu/chapt4/chapt4_ws/src/demo_python_service' returned '0': PYTHONPATH=/home/ubuntu/chapt4/chapt4_ws/build/demo_python_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/ubuntu/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/demo_python_service build --build-base /home/ubuntu/chapt4/chapt4_ws/build/demo_python_service/build install --record /home/ubuntu/chapt4/chapt4_ws/build/demo_python_service/install.log --single-version-externally-managed install_data
+[2.837s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/chapt4/chapt4_ws/install/demo_python_service' for CMake config files
+[2.838s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/chapt4/chapt4_ws/install/demo_python_service/lib'
+[2.838s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/chapt4/chapt4_ws/install/demo_python_service/bin'
+[2.838s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/chapt4/chapt4_ws/install/demo_python_service/lib/pkgconfig/demo_python_service.pc'
+[2.839s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/chapt4/chapt4_ws/install/demo_python_service/lib/python3.10/site-packages'
+[2.839s] Level 1:colcon.colcon_core.shell:create_environment_hook('demo_python_service', 'pythonpath')
+[2.839s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/ubuntu/chapt4/chapt4_ws/install/demo_python_service/share/demo_python_service/hook/pythonpath.dsv'
+[2.840s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/ubuntu/chapt4/chapt4_ws/install/demo_python_service/share/demo_python_service/hook/pythonpath.sh'
+[2.841s] Level 1:colcon.colcon_core.environment:checking '/home/ubuntu/chapt4/chapt4_ws/install/demo_python_service/bin'
+[2.842s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(demo_python_service)
+[2.842s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/ubuntu/chapt4/chapt4_ws/install/demo_python_service/share/demo_python_service/package.dsv'
+[2.843s] INFO:colcon.colcon_core.shell:Creating package script '/home/ubuntu/chapt4/chapt4_ws/install/demo_python_service/share/demo_python_service/package.sh'
+[2.844s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/ubuntu/chapt4/chapt4_ws/install/demo_python_service/share/colcon-core/packages/demo_python_service)
+[2.845s] DEBUG:colcon.colcon_core.executor.sequential:run_until_complete 'demo_python_service' finished with '0'
+[2.845s] DEBUG:colcon.colcon_core.executor.sequential:closing loop
+[2.845s] DEBUG:colcon.colcon_core.executor.sequential:loop closed
+[2.845s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[2.846s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[2.846s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/ubuntu/chapt4/chapt4_ws/install/local_setup.sh'
+[2.848s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/ubuntu/chapt4/chapt4_ws/install/_local_setup_util_sh.py'
+[2.850s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/ubuntu/chapt4/chapt4_ws/install/setup.sh'
